@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;
+  color: #7e7f75;
+}
+
+#container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  background-color: #52f6d1;
+  justify-content: center;
+  text-align: center;
+}
+
+#controlcontainer, #operatorcontainer {
+  width: 25%;
+}
+
+.button:hover {
+  background-color: #83d3bf;
+  color: #eaeae8;
+}
+
+.control:hover {
+  background-color: #99f7e1;
+  color: #7e7f75;
+}
+
+#display, #equalscontainer {
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #faf8f2;
+}
+
+#display {
+  border-top: 2px solid #eaeae8;
+}
+
+#numcontainer {
+  width: 75%;
+}
+
+#spacer {
+  background-color: #52f6d1;
+  color: #52f6d1;
+  border: none;
+}
+
+
+.button {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+  background-color: #76f7d9;
+  border: 2px solid #99f7e1;
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;        
+}
+
+.control, .operator, #equals {
+  font-size: 40px;
+  line-height: 40px;
+  background-color: #82e0ca;
+  border: 2px solid #83d3bf;
+  color: #fcfbf9;
+}
+
+.number {
+  line-height: 75px;
+  height: 75px;
+  width: 75px;
+}
